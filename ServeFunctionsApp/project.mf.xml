@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest>
     <application name="ServeFunctionsApp">
         <crown name="ServeFunctionsApp">
@@ -11,13 +11,10 @@
         </crown>
         <meta key="author">AppSpace Sample</meta>
         <meta key="version">2.5.0</meta>
-        <meta key="licensed">false</meta>
         <meta key="priority">low</meta>
         <meta key="copy-protected">false</meta>
         <meta key="read-protected">false</meta>
         <meta key="tags">Serves</meta>
-        <entry path="scripts" default="ServingFunction.lua">
-            <file type="text/x-lua">ServingFunction.lua</file>
-        </entry>
+        <entry default="ServingFunction.lua" path="scripts"/>
     </application>
 </manifest>
