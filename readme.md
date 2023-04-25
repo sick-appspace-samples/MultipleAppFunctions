@@ -1,7 +1,9 @@
 ## MultipleAppFunctions
+
 The sample demonstrates how communication via functions between two Apps can be setup.
 
 ### Description
+
 This sample apps show how functions can be served (here in the "ServeFunctionsApp") by one
 App and called synchronously (blocking) by another (here the "CallFunctionsApp").
 
@@ -14,8 +16,10 @@ simultaneously  it is necessary to serve and register to events instead of direc
 calling functions.
 
 ### How to Run
+
 To demonstrate, both Apps must be started together.
 The output can be viewed in the console.
 
 ### Topics
-Programming-Pattern, Sample, SICK-AppSpace
+
+programming-pattern, sample, sick-appspace
