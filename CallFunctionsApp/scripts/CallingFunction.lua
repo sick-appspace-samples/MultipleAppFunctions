@@ -10,7 +10,7 @@ Timer.setExpirationTime(timer,1000)
 
 --Start of Function and Event Scope---------------------------------------------
 
--- Timer will be started when all apps are ready
+---Timer will be started when all apps are ready
 local function handleOnStarted()
   Timer.start(timer)
 end

@@ -7,7 +7,7 @@ local counter = 0
 
 --Start of Function and Event Scope---------------------------------------------
 
--- This is the function which then can be called from other apps
+---This is the function which then can be called from other apps
 local function printSomething()
   counter = counter + 1
   print('This function is called from CallFunctionsApp ' .. counter .. ' times')
